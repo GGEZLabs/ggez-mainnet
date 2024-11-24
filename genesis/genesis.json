@@ -1,0 +1,2433 @@
+{
+    "app_name": "ggezchaind",
+    "app_version": "3-73e965c1",
+    "genesis_time": "2024-11-12T12:53:55.698108233Z",
+    "chain_id": "ggezchain",
+    "initial_height": 165248,
+    "app_hash": null,
+    "app_state": {
+      "auth": {
+        "params": {
+          "max_memo_characters": "256",
+          "tx_sig_limit": "7",
+          "tx_size_cost_per_byte": "10",
+          "sig_verify_cost_ed25519": "590",
+          "sig_verify_cost_secp256k1": "1000"
+        },
+        "accounts": [
+          {
+            "@type": "/cosmos.auth.v1beta1.BaseAccount",
+            "address": "ggez1pwnfy6wymj0k366yfm3pxdgjgkp0jv3dduvxlk",
+            "pub_key": {
+              "@type": "/cosmos.crypto.secp256k1.PubKey",
+              "key": "AyOj8CnYYNbjVGG53D6sic7Vdm3TPWKwMIYTihXsPlTj"
+            },
+            "account_number": "31",
+            "sequence": "2"
+          },
+          {
+            "@type": "/cosmos.auth.v1beta1.BaseAccount",
+            "address": "ggez1r2va622j7jg9nnq3pag78s6cgla8fvwjx97j09",
+            "pub_key": {
+              "@type": "/cosmos.crypto.secp256k1.PubKey",
+              "key": "AhQa2/frkzv3os4989Hx+4ToOxErtmrhoOtZxG3o3WSh"
+            },
+            "account_number": "22",
+            "sequence": "1"
+          },
+          {
+            "@type": "/cosmos.auth.v1beta1.BaseAccount",
+            "address": "ggez1r3yw394szfka8r8ra7xqq5cgx45avnwc5rpv0l",
+            "pub_key": null,
+            "account_number": "10",
+            "sequence": "0"
+          },
+          {
+            "@type": "/cosmos.auth.v1beta1.BaseAccount",
+            "address": "ggez1rlm5n9vld2ef6jd5l640fxur67f24xjawj9fzz",
+            "pub_key": {
+              "@type": "/cosmos.crypto.secp256k1.PubKey",
+              "key": "AlVEPHxrPZ2lGnzcYFZ9vkppHOzMUaeV2/0MDGHBvdN/"
+            },
+            "account_number": "21",
+            "sequence": "1"
+          },
+          {
+            "@type": "/cosmos.auth.v1beta1.BaseAccount",
+            "address": "ggez1y8z4hzmfhkpqtg28nd7g7h3djh7u8q6trhtj3n",
+            "pub_key": {
+              "@type": "/cosmos.crypto.secp256k1.PubKey",
+              "key": "A3MFl+0o6odUt7T1If6NXOy/LIu+a60XSron7e3ieCkp"
+            },
+            "account_number": "15",
+            "sequence": "1"
+          },
+          {
+            "@type": "/cosmos.auth.v1beta1.BaseAccount",
+            "address": "ggez1y8k7d6fyr3clflqk24cq3tzmw6v46f8jrgh89x",
+            "pub_key": {
+              "@type": "/cosmos.crypto.secp256k1.PubKey",
+              "key": "A0T91wXOswSVwq5KNbH8d+Q86l2K+saFjTUh6sRx7WWu"
+            },
+            "account_number": "32",
+            "sequence": "1"
+          },
+          {
+            "@type": "/cosmos.auth.v1beta1.BaseAccount",
+            "address": "ggez1y3q744daetgmjurmnhqarnfpfdn0yhqq4k3skn",
+            "pub_key": {
+              "@type": "/cosmos.crypto.secp256k1.PubKey",
+              "key": "Ar0kTD2qyQvFr2kqKhqY4iDPBr4/6K53X1mYMQLESrC3"
+            },
+            "account_number": "30",
+            "sequence": "4"
+          },
+          {
+            "@type": "/cosmos.auth.v1beta1.BaseAccount",
+            "address": "ggez19h0z28kpl2gqn00rjk8d4gf3kr78hegf4gpjt2",
+            "pub_key": {
+              "@type": "/cosmos.crypto.secp256k1.PubKey",
+              "key": "Apkf8wily+desBpo5fj5GCBbiEISSIM0TYcn0TZIP95u"
+            },
+            "account_number": "20",
+            "sequence": "1"
+          },
+          {
+            "@type": "/cosmos.auth.v1beta1.BaseAccount",
+            "address": "ggez18setky3nxxtw90pgvqnh4st5yh7gfmcpe24yqe",
+            "pub_key": null,
+            "account_number": "3",
+            "sequence": "0"
+          },
+          {
+            "@type": "/cosmos.auth.v1beta1.BaseAccount",
+            "address": "ggez18790kmsyk4ugufuvprjyjvtzjmh4mgtgvks0vu",
+            "pub_key": null,
+            "account_number": "11",
+            "sequence": "0"
+          },
+          {
+            "@type": "/cosmos.auth.v1beta1.BaseAccount",
+            "address": "ggez1gemqk0xr2jhxnfl8jq9yqlwh896p4rrrywhdrl",
+            "pub_key": {
+              "@type": "/cosmos.crypto.secp256k1.PubKey",
+              "key": "A/OQEYF+yL9dBYbsufVUSX6bp+CfccnXbbm1f2TMhtE7"
+            },
+            "account_number": "35",
+            "sequence": "2"
+          },
+          {
+            "@type": "/cosmos.auth.v1beta1.ModuleAccount",
+            "base_account": {
+              "address": "ggez1fl48vsnmsdzcv85q5d2q4z5ajdha8yu35vjhvv",
+              "pub_key": null,
+              "account_number": "25",
+              "sequence": "0"
+            },
+            "name": "bonded_tokens_pool",
+            "permissions": [
+              "burner",
+              "staking"
+            ]
+          },
+          {
+            "@type": "/cosmos.auth.v1beta1.BaseAccount",
+            "address": "ggez12e3lctqkpg2rrkvywd6596at358dr50c43n52n",
+            "pub_key": {
+              "@type": "/cosmos.crypto.secp256k1.PubKey",
+              "key": "A+wTFXknvQp0riQnDl+Owo8O2+k0SiHN5htG8yO6BExJ"
+            },
+            "account_number": "34",
+            "sequence": "2"
+          },
+          {
+            "@type": "/cosmos.auth.v1beta1.BaseAccount",
+            "address": "ggez12mzusset7qzp2ndvm3ya9ss7vzucvfcj4f6npy",
+            "pub_key": {
+              "@type": "/cosmos.crypto.secp256k1.PubKey",
+              "key": "AzXcHWMMBMRy4+mQeQFKo7+DByk/wWydCbhA/hC+Zd7X"
+            },
+            "account_number": "16",
+            "sequence": "1"
+          },
+          {
+            "@type": "/cosmos.auth.v1beta1.ModuleAccount",
+            "base_account": {
+              "address": "ggez1tygms3xhhs3yv487phx3dw4a95jn7t7lqvwx6c",
+              "pub_key": null,
+              "account_number": "26",
+              "sequence": "0"
+            },
+            "name": "not_bonded_tokens_pool",
+            "permissions": [
+              "burner",
+              "staking"
+            ]
+          },
+          {
+            "@type": "/cosmos.auth.v1beta1.BaseAccount",
+            "address": "ggez1tupj3qyuwzpuvkjkd364m5j45gkpzghpvm7lka",
+            "pub_key": null,
+            "account_number": "7",
+            "sequence": "0"
+          },
+          {
+            "@type": "/cosmos.auth.v1beta1.BaseAccount",
+            "address": "ggez1df7046vyrzpkdwy40ehjeklgaruhvnt6c32dcz",
+            "pub_key": {
+              "@type": "/cosmos.crypto.secp256k1.PubKey",
+              "key": "Ah9eeSxW4dCBMmrZCXzrm5jvqty7Andy75htSAxNOxvm"
+            },
+            "account_number": "36",
+            "sequence": "1"
+          },
+          {
+            "@type": "/cosmos.auth.v1beta1.BaseAccount",
+            "address": "ggez1wvnnw60wf5d0qert39hh0fcwswn2xywgwj6842",
+            "pub_key": null,
+            "account_number": "9",
+            "sequence": "0"
+          },
+          {
+            "@type": "/cosmos.auth.v1beta1.BaseAccount",
+            "address": "ggez1wnwjqgj260urj77s5up8m4lmpap0jg6zt0027s",
+            "pub_key": {
+              "@type": "/cosmos.crypto.secp256k1.PubKey",
+              "key": "AqUdM0ZCdRT4N9q6XzYOhsoyno6m6KVNPxB0dbhAVi73"
+            },
+            "account_number": "0",
+            "sequence": "1"
+          },
+          {
+            "@type": "/cosmos.auth.v1beta1.ModuleAccount",
+            "base_account": {
+              "address": "ggez10d07y265gmmuvt4z0w9aw880jnsr700jm4garg",
+              "pub_key": null,
+              "account_number": "27",
+              "sequence": "0"
+            },
+            "name": "gov",
+            "permissions": [
+              "burner"
+            ]
+          },
+          {
+            "@type": "/cosmos.auth.v1beta1.BaseAccount",
+            "address": "ggez1sfyknhpx4e2mqxpzg0ysqjva9queq5tuc6548d",
+            "pub_key": {
+              "@type": "/cosmos.crypto.secp256k1.PubKey",
+              "key": "Ax7WNJUfKWOe+OQkSknhFYCcBCYzDFCgvESYyIq4NdJ/"
+            },
+            "account_number": "13",
+            "sequence": "8"
+          },
+          {
+            "@type": "/cosmos.auth.v1beta1.BaseAccount",
+            "address": "ggez1s6hlrmazps7c0r8qugrn9z0yv82l2zxjvvjql6",
+            "pub_key": null,
+            "account_number": "2",
+            "sequence": "0"
+          },
+          {
+            "@type": "/cosmos.auth.v1beta1.BaseAccount",
+            "address": "ggez13ekmwuepa047es0nn03mafj5q80kg382emm7ph",
+            "pub_key": {
+              "@type": "/cosmos.crypto.secp256k1.PubKey",
+              "key": "AzbSPwlQwJlTPiKn/by6lSj1N7O/YuNVLnXiMC4AjB1r"
+            },
+            "account_number": "33",
+            "sequence": "5"
+          },
+          {
+            "@type": "/cosmos.auth.v1beta1.ModuleAccount",
+            "base_account": {
+              "address": "ggez1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8xglyuy",
+              "pub_key": null,
+              "account_number": "24",
+              "sequence": "0"
+            },
+            "name": "distribution",
+            "permissions": []
+          },
+          {
+            "@type": "/cosmos.auth.v1beta1.BaseAccount",
+            "address": "ggez1j0jwctxaphtykgjaxqes2xj4jwzue0m89234t9",
+            "pub_key": null,
+            "account_number": "5",
+            "sequence": "0"
+          },
+          {
+            "@type": "/cosmos.auth.v1beta1.BaseAccount",
+            "address": "ggez1nwm6sxvmpu9egz0rq5qzexp8f03yad5znvpc4v",
+            "pub_key": {
+              "@type": "/cosmos.crypto.secp256k1.PubKey",
+              "key": "ApZOmQvxLWgWNu5IqaLNGo/EFBYJB8ssL00eoS1OXlTN"
+            },
+            "account_number": "19",
+            "sequence": "1"
+          },
+          {
+            "@type": "/cosmos.auth.v1beta1.BaseAccount",
+            "address": "ggez15jexyz6vk0nwc8p7rm0ww0chx0lkaqrusv4cy4",
+            "pub_key": null,
+            "account_number": "14",
+            "sequence": "0"
+          },
+          {
+            "@type": "/cosmos.auth.v1beta1.BaseAccount",
+            "address": "ggez1eg943pw553v7cmdjclhml22qvy9vqxh76nvtar",
+            "pub_key": null,
+            "account_number": "1",
+            "sequence": "0"
+          },
+          {
+            "@type": "/cosmos.auth.v1beta1.BaseAccount",
+            "address": "ggez16sj5vn4jjzl7r6vysjnhlvhwqp7v3wl82ryzy2",
+            "pub_key": null,
+            "account_number": "4",
+            "sequence": "0"
+          },
+          {
+            "@type": "/cosmos.auth.v1beta1.ModuleAccount",
+            "base_account": {
+              "address": "ggez1m3h30wlvsf8llruxtpukdvsy0km2kum8fxuqjm",
+              "pub_key": null,
+              "account_number": "28",
+              "sequence": "0"
+            },
+            "name": "mint",
+            "permissions": [
+              "minter"
+            ]
+          },
+          {
+            "@type": "/cosmos.auth.v1beta1.BaseAccount",
+            "address": "ggez1uf2jhue04wz8hp845646tujalsq0dtn4l7en2j",
+            "pub_key": null,
+            "account_number": "6",
+            "sequence": "0"
+          },
+          {
+            "@type": "/cosmos.auth.v1beta1.BaseAccount",
+            "address": "ggez1u4hl7lcmwu3c7nd67n66ntz4k2emyy6z2tqwxe",
+            "pub_key": {
+              "@type": "/cosmos.crypto.secp256k1.PubKey",
+              "key": "AmbpYTCYZCBteP11a3sVf6qxTJzSa/waJwAcDa0qKAl4"
+            },
+            "account_number": "18",
+            "sequence": "1"
+          },
+          {
+            "@type": "/cosmos.auth.v1beta1.BaseAccount",
+            "address": "ggez1u7374gx6efl39vsd6mhwn0pw7nhwzqtfjumkfh",
+            "pub_key": {
+              "@type": "/cosmos.crypto.secp256k1.PubKey",
+              "key": "A7YpveXxA1V51VtnChsKX343NFiYu9eV+0Tjs0YZmQwR"
+            },
+            "account_number": "17",
+            "sequence": "1"
+          },
+          {
+            "@type": "/cosmos.auth.v1beta1.BaseAccount",
+            "address": "ggez17zf3yzslwfen6v772pdt5rxu0d2ahr06n9h55p",
+            "pub_key": null,
+            "account_number": "12",
+            "sequence": "0"
+          },
+          {
+            "@type": "/cosmos.auth.v1beta1.BaseAccount",
+            "address": "ggez17yl8gyajkxh4vfhrsqwl7d356g55rxjzapkruy",
+            "pub_key": null,
+            "account_number": "8",
+            "sequence": "0"
+          },
+          {
+            "@type": "/cosmos.auth.v1beta1.ModuleAccount",
+            "base_account": {
+              "address": "ggez17xpfvakm2amg962yls6f84z3kell8c5l3wcc7x",
+              "pub_key": null,
+              "account_number": "23",
+              "sequence": "0"
+            },
+            "name": "fee_collector",
+            "permissions": []
+          },
+          {
+            "@type": "/cosmos.auth.v1beta1.BaseAccount",
+            "address": "ggez1la3a2hskumhhugu59cvh253rejkdc6he6dgwep",
+            "pub_key": null,
+            "account_number": "29",
+            "sequence": "0"
+          }
+        ]
+      },
+      "authz": {
+        "authorization": []
+      },
+      "bank": {
+        "params": {
+          "send_enabled": [],
+          "default_send_enabled": true
+        },
+        "balances": [
+          {
+            "address": "ggez1pwnfy6wymj0k366yfm3pxdgjgkp0jv3dduvxlk",
+            "coins": [
+              {
+                "denom": "uggez1",
+                "amount": "100000"
+              }
+            ]
+          },
+          {
+            "address": "ggez1r2va622j7jg9nnq3pag78s6cgla8fvwjx97j09",
+            "coins": [
+              {
+                "denom": "uggez1",
+                "amount": "1833332950000"
+              }
+            ]
+          },
+          {
+            "address": "ggez1r3yw394szfka8r8ra7xqq5cgx45avnwc5rpv0l",
+            "coins": [
+              {
+                "denom": "uggez1",
+                "amount": "1777777000000"
+              }
+            ]
+          },
+          {
+            "address": "ggez1rlm5n9vld2ef6jd5l640fxur67f24xjawj9fzz",
+            "coins": [
+              {
+                "denom": "uggez1",
+                "amount": "1833332950000"
+              }
+            ]
+          },
+          {
+            "address": "ggez1y8z4hzmfhkpqtg28nd7g7h3djh7u8q6trhtj3n",
+            "coins": [
+              {
+                "denom": "uggez1",
+                "amount": "133333332950000"
+              }
+            ]
+          },
+          {
+            "address": "ggez1y8k7d6fyr3clflqk24cq3tzmw6v46f8jrgh89x",
+            "coins": [
+              {
+                "denom": "uggez1",
+                "amount": "1725000"
+              }
+            ]
+          },
+          {
+            "address": "ggez1y3q744daetgmjurmnhqarnfpfdn0yhqq4k3skn",
+            "coins": [
+              {
+                "denom": "uggez1",
+                "amount": "7587721"
+              }
+            ]
+          },
+          {
+            "address": "ggez19h0z28kpl2gqn00rjk8d4gf3kr78hegf4gpjt2",
+            "coins": [
+              {
+                "denom": "uggez1",
+                "amount": "1833332950000"
+              }
+            ]
+          },
+          {
+            "address": "ggez18setky3nxxtw90pgvqnh4st5yh7gfmcpe24yqe",
+            "coins": [
+              {
+                "denom": "uggez1",
+                "amount": "124444444000000"
+              }
+            ]
+          },
+          {
+            "address": "ggez18790kmsyk4ugufuvprjyjvtzjmh4mgtgvks0vu",
+            "coins": [
+              {
+                "denom": "uggez1",
+                "amount": "1777777000000"
+              }
+            ]
+          },
+          {
+            "address": "ggez1fl48vsnmsdzcv85q5d2q4z5ajdha8yu35vjhvv",
+            "coins": [
+              {
+                "denom": "uggez1",
+                "amount": "232727186745000"
+              }
+            ]
+          },
+          {
+            "address": "ggez12e3lctqkpg2rrkvywd6596at358dr50c43n52n",
+            "coins": [
+              {
+                "denom": "uggez1",
+                "amount": "342711954867"
+              }
+            ]
+          },
+          {
+            "address": "ggez12mzusset7qzp2ndvm3ya9ss7vzucvfcj4f6npy",
+            "coins": [
+              {
+                "denom": "uggez1",
+                "amount": "133333332950000"
+              }
+            ]
+          },
+          {
+            "address": "ggez1tupj3qyuwzpuvkjkd364m5j45gkpzghpvm7lka",
+            "coins": [
+              {
+                "denom": "uggez1",
+                "amount": "96000004000000"
+              }
+            ]
+          },
+          {
+            "address": "ggez1wvnnw60wf5d0qert39hh0fcwswn2xywgwj6842",
+            "coins": [
+              {
+                "denom": "uggez1",
+                "amount": "8888888000000"
+              }
+            ]
+          },
+          {
+            "address": "ggez1wnwjqgj260urj77s5up8m4lmpap0jg6zt0027s",
+            "coins": [
+              {
+                "denom": "uggez1",
+                "amount": "53328366068890"
+              }
+            ]
+          },
+          {
+            "address": "ggez1sfyknhpx4e2mqxpzg0ysqjva9queq5tuc6548d",
+            "coins": [
+              {
+                "denom": "uggez1",
+                "amount": "177434953886915"
+              }
+            ]
+          },
+          {
+            "address": "ggez1s6hlrmazps7c0r8qugrn9z0yv82l2zxjvvjql6",
+            "coins": [
+              {
+                "denom": "uggez1",
+                "amount": "88888888000000"
+              }
+            ]
+          },
+          {
+            "address": "ggez1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8xglyuy",
+            "coins": [
+              {
+                "denom": "uggez1",
+                "amount": "1831607"
+              }
+            ]
+          },
+          {
+            "address": "ggez1j0jwctxaphtykgjaxqes2xj4jwzue0m89234t9",
+            "coins": [
+              {
+                "denom": "uggez1",
+                "amount": "124444444000000"
+              }
+            ]
+          },
+          {
+            "address": "ggez1nwm6sxvmpu9egz0rq5qzexp8f03yad5znvpc4v",
+            "coins": [
+              {
+                "denom": "uggez1",
+                "amount": "26666666950000"
+              }
+            ]
+          },
+          {
+            "address": "ggez15jexyz6vk0nwc8p7rm0ww0chx0lkaqrusv4cy4",
+            "coins": [
+              {
+                "denom": "uggez1",
+                "amount": "88888895000000"
+              }
+            ]
+          },
+          {
+            "address": "ggez1eg943pw553v7cmdjclhml22qvy9vqxh76nvtar",
+            "coins": [
+              {
+                "denom": "uggez1",
+                "amount": "71111111000000"
+              }
+            ]
+          },
+          {
+            "address": "ggez16sj5vn4jjzl7r6vysjnhlvhwqp7v3wl82ryzy2",
+            "coins": [
+              {
+                "denom": "uggez1",
+                "amount": "124444444000000"
+              }
+            ]
+          },
+          {
+            "address": "ggez1uf2jhue04wz8hp845646tujalsq0dtn4l7en2j",
+            "coins": [
+              {
+                "denom": "uggez1",
+                "amount": "124444444000000"
+              }
+            ]
+          },
+          {
+            "address": "ggez1u4hl7lcmwu3c7nd67n66ntz4k2emyy6z2tqwxe",
+            "coins": [
+              {
+                "denom": "uggez1",
+                "amount": "26666666950000"
+              }
+            ]
+          },
+          {
+            "address": "ggez1u7374gx6efl39vsd6mhwn0pw7nhwzqtfjumkfh",
+            "coins": [
+              {
+                "denom": "uggez1",
+                "amount": "26666666950000"
+              }
+            ]
+          },
+          {
+            "address": "ggez17zf3yzslwfen6v772pdt5rxu0d2ahr06n9h55p",
+            "coins": [
+              {
+                "denom": "uggez1",
+                "amount": "88888888000000"
+              }
+            ]
+          },
+          {
+            "address": "ggez17yl8gyajkxh4vfhrsqwl7d356g55rxjzapkruy",
+            "coins": [
+              {
+                "denom": "uggez1",
+                "amount": "17777777000000"
+              }
+            ]
+          },
+          {
+            "address": "ggez1la3a2hskumhhugu59cvh253rejkdc6he6dgwep",
+            "coins": [
+              {
+                "denom": "uggez1",
+                "amount": "100500000"
+              }
+            ]
+          }
+        ],
+        "supply": [
+          {
+            "denom": "uggez1",
+            "amount": "1777777777000000"
+          }
+        ],
+        "denom_metadata": [
+          {
+            "description": "The native staking coin of the GGEZ Network.",
+            "denom_units": [
+              {
+                "denom": "uggez1",
+                "exponent": 0,
+                "aliases": [
+                  "microggez1"
+                ]
+              },
+              {
+                "denom": "mggez1",
+                "exponent": 3,
+                "aliases": [
+                  "milliggez1"
+                ]
+              },
+              {
+                "denom": "ggez1",
+                "exponent": 6,
+                "aliases": []
+              }
+            ],
+            "base": "uggez1",
+            "display": "ggez1",
+            "name": "ggez1",
+            "symbol": "ggez1",
+            "uri": "",
+            "uri_hash": ""
+          },
+          {
+            "description": "The rewards coin of the GGEZ Network.",
+            "denom_units": [
+              {
+                "denom": "uggz",
+                "exponent": 0,
+                "aliases": [
+                  "microggz"
+                ]
+              },
+              {
+                "denom": "mggz",
+                "exponent": 3,
+                "aliases": [
+                  "milliggz"
+                ]
+              },
+              {
+                "denom": "ggz",
+                "exponent": 6,
+                "aliases": []
+              }
+            ],
+            "base": "uggz",
+            "display": "ggz",
+            "name": "ggz",
+            "symbol": "ggz",
+            "uri": "",
+            "uri_hash": ""
+          }
+        ],
+        "send_enabled": []
+      },
+      "capability": {
+        "index": "3",
+        "owners": [
+          {
+            "index": "1",
+            "index_owners": {
+              "owners": [
+                {
+                  "module": "ibc",
+                  "name": "ports/transfer"
+                },
+                {
+                  "module": "transfer",
+                  "name": "ports/transfer"
+                }
+              ]
+            }
+          },
+          {
+            "index": "2",
+            "index_owners": {
+              "owners": [
+                {
+                  "module": "ibc",
+                  "name": "ports/icahost"
+                },
+                {
+                  "module": "icahost",
+                  "name": "ports/icahost"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "circuit": {
+        "account_permissions": [],
+        "disabled_type_urls": []
+      },
+      "crisis": {
+        "constant_fee": {
+          "denom": "uggez1",
+          "amount": "1000"
+        }
+      },
+      "distribution": {
+        "params": {
+          "community_tax": "0.020000000000000000",
+          "base_proposer_reward": "0.000000000000000000",
+          "bonus_proposer_reward": "0.000000000000000000",
+          "withdraw_addr_enabled": true
+        },
+        "fee_pool": {
+          "community_pool": [
+            {
+              "denom": "uggez1",
+              "amount": "36632.140000000005384970"
+            }
+          ]
+        },
+        "delegator_withdraw_infos": [],
+        "previous_proposer": "ggezvalcons192f8m5zt80x0pza3suzvk2yp9whvm0rc9juhr6",
+        "outstanding_rewards": [
+          {
+            "validator_address": "ggezvaloper1r2va622j7jg9nnq3pag78s6cgla8fvwjvmsgw6",
+            "outstanding_rewards": [
+              {
+                "denom": "uggez1",
+                "amount": "26995.325199286942461240"
+              }
+            ]
+          },
+          {
+            "validator_address": "ggezvaloper1rlm5n9vld2ef6jd5l640fxur67f24xjayvtnra",
+            "outstanding_rewards": [
+              {
+                "denom": "uggez1",
+                "amount": "26995.325199286942461240"
+              }
+            ]
+          },
+          {
+            "validator_address": "ggezvaloper1y8z4hzmfhkpqtg28nd7g7h3djh7u8q6tff9gsv",
+            "outstanding_rewards": [
+              {
+                "denom": "uggez1",
+                "amount": "342797.776880427833446262"
+              }
+            ]
+          },
+          {
+            "validator_address": "ggezvaloper19h0z28kpl2gqn00rjk8d4gf3kr78hegflk0g24",
+            "outstanding_rewards": [
+              {
+                "denom": "uggez1",
+                "amount": "26995.325199286942461240"
+              }
+            ]
+          },
+          {
+            "validator_address": "ggezvaloper12mzusset7qzp2ndvm3ya9ss7vzucvfcjlh5fqm",
+            "outstanding_rewards": [
+              {
+                "denom": "uggez1",
+                "amount": "342797.776880427833446262"
+              }
+            ]
+          },
+          {
+            "validator_address": "ggezvaloper1nwm6sxvmpu9egz0rq5qzexp8f03yad5zej0z5n",
+            "outstanding_rewards": [
+              {
+                "denom": "uggez1",
+                "amount": "342797.776880427833446262"
+              }
+            ]
+          },
+          {
+            "validator_address": "ggezvaloper1u4hl7lcmwu3c7nd67n66ntz4k2emyy6zq4w58x",
+            "outstanding_rewards": [
+              {
+                "denom": "uggez1",
+                "amount": "342797.776880427833446262"
+              }
+            ]
+          },
+          {
+            "validator_address": "ggezvaloper1u7374gx6efl39vsd6mhwn0pw7nhwzqtfcz4vgg",
+            "outstanding_rewards": [
+              {
+                "denom": "uggez1",
+                "amount": "342797.776880427833446262"
+              }
+            ]
+          }
+        ],
+        "validator_accumulated_commissions": [
+          {
+            "validator_address": "ggezvaloper1r2va622j7jg9nnq3pag78s6cgla8fvwjvmsgw6",
+            "accumulated": {
+              "commission": [
+                {
+                  "denom": "uggez1",
+                  "amount": "2699.532519928694246122"
+                }
+              ]
+            }
+          },
+          {
+            "validator_address": "ggezvaloper1rlm5n9vld2ef6jd5l640fxur67f24xjayvtnra",
+            "accumulated": {
+              "commission": [
+                {
+                  "denom": "uggez1",
+                  "amount": "2699.532519928694246122"
+                }
+              ]
+            }
+          },
+          {
+            "validator_address": "ggezvaloper1y8z4hzmfhkpqtg28nd7g7h3djh7u8q6tff9gsv",
+            "accumulated": {
+              "commission": [
+                {
+                  "denom": "uggez1",
+                  "amount": "34279.777688042783344627"
+                }
+              ]
+            }
+          },
+          {
+            "validator_address": "ggezvaloper19h0z28kpl2gqn00rjk8d4gf3kr78hegflk0g24",
+            "accumulated": {
+              "commission": [
+                {
+                  "denom": "uggez1",
+                  "amount": "2699.532519928694246122"
+                }
+              ]
+            }
+          },
+          {
+            "validator_address": "ggezvaloper12mzusset7qzp2ndvm3ya9ss7vzucvfcjlh5fqm",
+            "accumulated": {
+              "commission": [
+                {
+                  "denom": "uggez1",
+                  "amount": "34279.777688042783344627"
+                }
+              ]
+            }
+          },
+          {
+            "validator_address": "ggezvaloper1nwm6sxvmpu9egz0rq5qzexp8f03yad5zej0z5n",
+            "accumulated": {
+              "commission": [
+                {
+                  "denom": "uggez1",
+                  "amount": "34279.777688042783344627"
+                }
+              ]
+            }
+          },
+          {
+            "validator_address": "ggezvaloper1u4hl7lcmwu3c7nd67n66ntz4k2emyy6zq4w58x",
+            "accumulated": {
+              "commission": [
+                {
+                  "denom": "uggez1",
+                  "amount": "34279.777688042783344627"
+                }
+              ]
+            }
+          },
+          {
+            "validator_address": "ggezvaloper1u7374gx6efl39vsd6mhwn0pw7nhwzqtfcz4vgg",
+            "accumulated": {
+              "commission": [
+                {
+                  "denom": "uggez1",
+                  "amount": "34279.777688042783344627"
+                }
+              ]
+            }
+          }
+        ],
+        "validator_historical_rewards": [
+          {
+            "validator_address": "ggezvaloper1r2va622j7jg9nnq3pag78s6cgla8fvwjvmsgw6",
+            "period": "1",
+            "rewards": {
+              "cumulative_reward_ratio": [],
+              "reference_count": 2
+            }
+          },
+          {
+            "validator_address": "ggezvaloper1rlm5n9vld2ef6jd5l640fxur67f24xjayvtnra",
+            "period": "1",
+            "rewards": {
+              "cumulative_reward_ratio": [],
+              "reference_count": 2
+            }
+          },
+          {
+            "validator_address": "ggezvaloper1y8z4hzmfhkpqtg28nd7g7h3djh7u8q6tff9gsv",
+            "period": "1",
+            "rewards": {
+              "cumulative_reward_ratio": [],
+              "reference_count": 1
+            }
+          },
+          {
+            "validator_address": "ggezvaloper1y8z4hzmfhkpqtg28nd7g7h3djh7u8q6tff9gsv",
+            "period": "2",
+            "rewards": {
+              "cumulative_reward_ratio": [
+                {
+                  "denom": "uggez1",
+                  "amount": "0.000000006467914297"
+                }
+              ],
+              "reference_count": 2
+            }
+          },
+          {
+            "validator_address": "ggezvaloper19h0z28kpl2gqn00rjk8d4gf3kr78hegflk0g24",
+            "period": "1",
+            "rewards": {
+              "cumulative_reward_ratio": [],
+              "reference_count": 2
+            }
+          },
+          {
+            "validator_address": "ggezvaloper12mzusset7qzp2ndvm3ya9ss7vzucvfcjlh5fqm",
+            "period": "1",
+            "rewards": {
+              "cumulative_reward_ratio": [],
+              "reference_count": 2
+            }
+          },
+          {
+            "validator_address": "ggezvaloper1nwm6sxvmpu9egz0rq5qzexp8f03yad5zej0z5n",
+            "period": "1",
+            "rewards": {
+              "cumulative_reward_ratio": [],
+              "reference_count": 2
+            }
+          },
+          {
+            "validator_address": "ggezvaloper1u4hl7lcmwu3c7nd67n66ntz4k2emyy6zq4w58x",
+            "period": "1",
+            "rewards": {
+              "cumulative_reward_ratio": [],
+              "reference_count": 2
+            }
+          },
+          {
+            "validator_address": "ggezvaloper1u7374gx6efl39vsd6mhwn0pw7nhwzqtfcz4vgg",
+            "period": "1",
+            "rewards": {
+              "cumulative_reward_ratio": [],
+              "reference_count": 2
+            }
+          }
+        ],
+        "validator_current_rewards": [
+          {
+            "validator_address": "ggezvaloper1r2va622j7jg9nnq3pag78s6cgla8fvwjvmsgw6",
+            "rewards": {
+              "rewards": [
+                {
+                  "denom": "uggez1",
+                  "amount": "24295.792679358248215118"
+                }
+              ],
+              "period": "2"
+            }
+          },
+          {
+            "validator_address": "ggezvaloper1rlm5n9vld2ef6jd5l640fxur67f24xjayvtnra",
+            "rewards": {
+              "rewards": [
+                {
+                  "denom": "uggez1",
+                  "amount": "24295.792679358248215118"
+                }
+              ],
+              "period": "2"
+            }
+          },
+          {
+            "validator_address": "ggezvaloper1y8z4hzmfhkpqtg28nd7g7h3djh7u8q6tff9gsv",
+            "rewards": {
+              "rewards": [
+                {
+                  "denom": "uggez1",
+                  "amount": "21055.144416377602434750"
+                }
+              ],
+              "period": "3"
+            }
+          },
+          {
+            "validator_address": "ggezvaloper19h0z28kpl2gqn00rjk8d4gf3kr78hegflk0g24",
+            "rewards": {
+              "rewards": [
+                {
+                  "denom": "uggez1",
+                  "amount": "24295.792679358248215118"
+                }
+              ],
+              "period": "2"
+            }
+          },
+          {
+            "validator_address": "ggezvaloper12mzusset7qzp2ndvm3ya9ss7vzucvfcjlh5fqm",
+            "rewards": {
+              "rewards": [
+                {
+                  "denom": "uggez1",
+                  "amount": "308517.999192385050101635"
+                }
+              ],
+              "period": "2"
+            }
+          },
+          {
+            "validator_address": "ggezvaloper1nwm6sxvmpu9egz0rq5qzexp8f03yad5zej0z5n",
+            "rewards": {
+              "rewards": [
+                {
+                  "denom": "uggez1",
+                  "amount": "308517.999192385050101635"
+                }
+              ],
+              "period": "2"
+            }
+          },
+          {
+            "validator_address": "ggezvaloper1u4hl7lcmwu3c7nd67n66ntz4k2emyy6zq4w58x",
+            "rewards": {
+              "rewards": [
+                {
+                  "denom": "uggez1",
+                  "amount": "308517.999192385050101635"
+                }
+              ],
+              "period": "2"
+            }
+          },
+          {
+            "validator_address": "ggezvaloper1u7374gx6efl39vsd6mhwn0pw7nhwzqtfcz4vgg",
+            "rewards": {
+              "rewards": [
+                {
+                  "denom": "uggez1",
+                  "amount": "308517.999192385050101635"
+                }
+              ],
+              "period": "2"
+            }
+          }
+        ],
+        "delegator_starting_infos": [
+          {
+            "delegator_address": "ggez1r2va622j7jg9nnq3pag78s6cgla8fvwjx97j09",
+            "validator_address": "ggezvaloper1r2va622j7jg9nnq3pag78s6cgla8fvwjvmsgw6",
+            "starting_info": {
+              "previous_period": "1",
+              "stake": "3500000000000.000000000000000000",
+              "height": "0"
+            }
+          },
+          {
+            "delegator_address": "ggez1rlm5n9vld2ef6jd5l640fxur67f24xjawj9fzz",
+            "validator_address": "ggezvaloper1rlm5n9vld2ef6jd5l640fxur67f24xjayvtnra",
+            "starting_info": {
+              "previous_period": "1",
+              "stake": "3500000000000.000000000000000000",
+              "height": "0"
+            }
+          },
+          {
+            "delegator_address": "ggez1y8z4hzmfhkpqtg28nd7g7h3djh7u8q6trhtj3n",
+            "validator_address": "ggezvaloper1y8z4hzmfhkpqtg28nd7g7h3djh7u8q6tff9gsv",
+            "starting_info": {
+              "previous_period": "1",
+              "stake": "44444444000000.000000000000000000",
+              "height": "0"
+            }
+          },
+          {
+            "delegator_address": "ggez1df7046vyrzpkdwy40ehjeklgaruhvnt6c32dcz",
+            "validator_address": "ggezvaloper1y8z4hzmfhkpqtg28nd7g7h3djh7u8q6tff9gsv",
+            "starting_info": {
+              "previous_period": "2",
+              "stake": "4966745000.000000000000000000",
+              "height": "136768"
+            }
+          },
+          {
+            "delegator_address": "ggez19h0z28kpl2gqn00rjk8d4gf3kr78hegf4gpjt2",
+            "validator_address": "ggezvaloper19h0z28kpl2gqn00rjk8d4gf3kr78hegflk0g24",
+            "starting_info": {
+              "previous_period": "1",
+              "stake": "3500000000000.000000000000000000",
+              "height": "0"
+            }
+          },
+          {
+            "delegator_address": "ggez12mzusset7qzp2ndvm3ya9ss7vzucvfcj4f6npy",
+            "validator_address": "ggezvaloper12mzusset7qzp2ndvm3ya9ss7vzucvfcjlh5fqm",
+            "starting_info": {
+              "previous_period": "1",
+              "stake": "44444444000000.000000000000000000",
+              "height": "0"
+            }
+          },
+          {
+            "delegator_address": "ggez1nwm6sxvmpu9egz0rq5qzexp8f03yad5znvpc4v",
+            "validator_address": "ggezvaloper1nwm6sxvmpu9egz0rq5qzexp8f03yad5zej0z5n",
+            "starting_info": {
+              "previous_period": "1",
+              "stake": "44444444000000.000000000000000000",
+              "height": "0"
+            }
+          },
+          {
+            "delegator_address": "ggez1u4hl7lcmwu3c7nd67n66ntz4k2emyy6z2tqwxe",
+            "validator_address": "ggezvaloper1u4hl7lcmwu3c7nd67n66ntz4k2emyy6zq4w58x",
+            "starting_info": {
+              "previous_period": "1",
+              "stake": "44444444000000.000000000000000000",
+              "height": "0"
+            }
+          },
+          {
+            "delegator_address": "ggez1u7374gx6efl39vsd6mhwn0pw7nhwzqtfjumkfh",
+            "validator_address": "ggezvaloper1u7374gx6efl39vsd6mhwn0pw7nhwzqtfcz4vgg",
+            "starting_info": {
+              "previous_period": "1",
+              "stake": "44444444000000.000000000000000000",
+              "height": "0"
+            }
+          }
+        ],
+        "validator_slash_events": []
+      },
+      "evidence": {
+        "evidence": []
+      },
+      "feegrant": {
+        "allowances": []
+      },
+      "feeibc": {
+        "identified_fees": [],
+        "fee_enabled_channels": [],
+        "registered_payees": [],
+        "registered_counterparty_payees": [],
+        "forward_relayers": []
+      },
+      "genutil": {
+        "gen_txs": []
+      },
+      "gov": {
+        "starting_proposal_id": "1",
+        "deposits": [],
+        "votes": [],
+        "proposals": [],
+        "deposit_params": null,
+        "voting_params": null,
+        "tally_params": null,
+        "params": {
+          "min_deposit": [
+            {
+              "denom": "uggez1",
+              "amount": "10000000"
+            }
+          ],
+          "max_deposit_period": "172800s",
+          "voting_period": "172800s",
+          "quorum": "0.334000000000000000",
+          "threshold": "0.500000000000000000",
+          "veto_threshold": "0.334000000000000000",
+          "min_initial_deposit_ratio": "0.000000000000000000",
+          "proposal_cancel_ratio": "0.500000000000000000",
+          "proposal_cancel_dest": "",
+          "expedited_voting_period": "86400s",
+          "expedited_threshold": "0.667000000000000000",
+          "expedited_min_deposit": [
+            {
+              "denom": "uggez1",
+              "amount": "50000000"
+            }
+          ],
+          "burn_vote_quorum": false,
+          "burn_proposal_deposit_prevote": false,
+          "burn_vote_veto": false,
+          "min_deposit_ratio": "0.010000000000000000"
+        },
+        "constitution": "The GGEZ1 Foundation is a non-profit organization dedicated to supporting the GGEZ1 blockchain ecosystem. The ecosystem focuses on the tokenization of Real-World Assets (RWA) and integrates the principles of Regenerative Finance (ReFi) to promote a sustainable and equitable economic future."
+      },
+      "group": {
+        "group_seq": "0",
+        "groups": [],
+        "group_members": [],
+        "group_policy_seq": "0",
+        "group_policies": [],
+        "proposal_seq": "0",
+        "proposals": [],
+        "votes": []
+      },
+      "ibc": {
+        "client_genesis": {
+          "clients": [
+            {
+              "client_id": "09-localhost",
+              "client_state": {
+                "@type": "/ibc.lightclients.localhost.v2.ClientState",
+                "latest_height": {
+                  "revision_number": "0",
+                  "revision_height": "165247"
+                }
+              }
+            }
+          ],
+          "clients_consensus": [],
+          "clients_metadata": [],
+          "params": {
+            "allowed_clients": [
+              "*"
+            ]
+          },
+          "create_localhost": false,
+          "next_client_sequence": "0"
+        },
+        "connection_genesis": {
+          "connections": [
+            {
+              "id": "connection-localhost",
+              "client_id": "09-localhost",
+              "versions": [
+                {
+                  "identifier": "1",
+                  "features": [
+                    "ORDER_ORDERED",
+                    "ORDER_UNORDERED"
+                  ]
+                }
+              ],
+              "state": "STATE_OPEN",
+              "counterparty": {
+                "client_id": "09-localhost",
+                "connection_id": "connection-localhost",
+                "prefix": {
+                  "key_prefix": "aWJj"
+                }
+              },
+              "delay_period": "0"
+            }
+          ],
+          "client_connection_paths": [],
+          "next_connection_sequence": "0",
+          "params": {
+            "max_expected_time_per_block": "30000000000"
+          }
+        },
+        "channel_genesis": {
+          "channels": [],
+          "acknowledgements": [],
+          "commitments": [],
+          "receipts": [],
+          "send_sequences": [],
+          "recv_sequences": [],
+          "ack_sequences": [],
+          "next_channel_sequence": "0",
+          "params": {
+            "upgrade_timeout": {
+              "height": {
+                "revision_number": "0",
+                "revision_height": "0"
+              },
+              "timestamp": "600000000000"
+            }
+          }
+        }
+      },
+      "interchainaccounts": {
+        "controller_genesis_state": {
+          "active_channels": [],
+          "interchain_accounts": [],
+          "ports": [],
+          "params": {
+            "controller_enabled": true
+          }
+        },
+        "host_genesis_state": {
+          "active_channels": [],
+          "interchain_accounts": [],
+          "port": "icahost",
+          "params": {
+            "host_enabled": true,
+            "allow_messages": [
+              "*"
+            ]
+          }
+        }
+      },
+      "mint": {
+        "minter": {
+          "inflation": "0.000000000000000000",
+          "annual_provisions": "0.000000000000000000"
+        },
+        "params": {
+          "mint_denom": "uggez1",
+          "inflation_rate_change": "0.000000000000000000",
+          "inflation_max": "0.000000000000000000",
+          "inflation_min": "0.000000000000000000",
+          "goal_bonded": "0.670000000000000000",
+          "blocks_per_year": "6311520"
+        }
+      },
+      "nft": {
+        "classes": [],
+        "entries": []
+      },
+      "slashing": {
+        "params": {
+          "signed_blocks_window": "100000",
+          "min_signed_per_window": "0.500000000000000000",
+          "downtime_jail_duration": "600s",
+          "slash_fraction_double_sign": "0.000000000000000000",
+          "slash_fraction_downtime": "0.000000000000000000"
+        },
+        "signing_infos": [
+          {
+            "address": "ggezvalcons192f8m5zt80x0pza3suzvk2yp9whvm0rc9juhr6",
+            "validator_signing_info": {
+              "address": "ggezvalcons192f8m5zt80x0pza3suzvk2yp9whvm0rc9juhr6",
+              "start_height": "0",
+              "index_offset": "165246",
+              "jailed_until": "1970-01-01T00:00:00Z",
+              "tombstoned": false,
+              "missed_blocks_counter": "57"
+            }
+          },
+          {
+            "address": "ggezvalcons1fyf8vgrjgngzgnyvxt45xa5xmywkns8l2l859g",
+            "validator_signing_info": {
+              "address": "ggezvalcons1fyf8vgrjgngzgnyvxt45xa5xmywkns8l2l859g",
+              "start_height": "0",
+              "index_offset": "165246",
+              "jailed_until": "1970-01-01T00:00:00Z",
+              "tombstoned": false,
+              "missed_blocks_counter": "11"
+            }
+          },
+          {
+            "address": "ggezvalcons1fc54wlwrk89ndpw68quu9mvysqy6dugkwxuacx",
+            "validator_signing_info": {
+              "address": "ggezvalcons1fc54wlwrk89ndpw68quu9mvysqy6dugkwxuacx",
+              "start_height": "0",
+              "index_offset": "165246",
+              "jailed_until": "1970-01-01T00:00:00Z",
+              "tombstoned": false,
+              "missed_blocks_counter": "2"
+            }
+          },
+          {
+            "address": "ggezvalcons10rqg5hty8g5mjkv993zfcnkm2wuw03fvndqc0l",
+            "validator_signing_info": {
+              "address": "ggezvalcons10rqg5hty8g5mjkv993zfcnkm2wuw03fvndqc0l",
+              "start_height": "0",
+              "index_offset": "165246",
+              "jailed_until": "1970-01-01T00:00:00Z",
+              "tombstoned": false,
+              "missed_blocks_counter": "20"
+            }
+          },
+          {
+            "address": "ggezvalcons1smwfmxp59cw9uuuxt3qfyczv7nj3wrxv0ueznp",
+            "validator_signing_info": {
+              "address": "ggezvalcons1smwfmxp59cw9uuuxt3qfyczv7nj3wrxv0ueznp",
+              "start_height": "0",
+              "index_offset": "165246",
+              "jailed_until": "1970-01-01T00:00:00Z",
+              "tombstoned": false,
+              "missed_blocks_counter": "4"
+            }
+          },
+          {
+            "address": "ggezvalcons1jm36qnp7d3p5waqlmevn6hdwnrrejxwv564ss3",
+            "validator_signing_info": {
+              "address": "ggezvalcons1jm36qnp7d3p5waqlmevn6hdwnrrejxwv564ss3",
+              "start_height": "0",
+              "index_offset": "165246",
+              "jailed_until": "1970-01-01T00:00:00Z",
+              "tombstoned": false,
+              "missed_blocks_counter": "11"
+            }
+          },
+          {
+            "address": "ggezvalcons1nnj6gdz0pfgeurdtwxx7mf8uyxgpqud9ee9gtp",
+            "validator_signing_info": {
+              "address": "ggezvalcons1nnj6gdz0pfgeurdtwxx7mf8uyxgpqud9ee9gtp",
+              "start_height": "0",
+              "index_offset": "165246",
+              "jailed_until": "1970-01-01T00:00:00Z",
+              "tombstoned": false,
+              "missed_blocks_counter": "1"
+            }
+          },
+          {
+            "address": "ggezvalcons16ekcukzjgux5l7tcnvtsxg3rwyltks7jl7ulmm",
+            "validator_signing_info": {
+              "address": "ggezvalcons16ekcukzjgux5l7tcnvtsxg3rwyltks7jl7ulmm",
+              "start_height": "0",
+              "index_offset": "165246",
+              "jailed_until": "1970-01-01T00:00:00Z",
+              "tombstoned": false,
+              "missed_blocks_counter": "1"
+            }
+          }
+        ],
+        "missed_blocks": [
+          {
+            "address": "ggezvalcons192f8m5zt80x0pza3suzvk2yp9whvm0rc9juhr6",
+            "missed_blocks": [
+              {
+                "index": "523",
+                "missed": true
+              },
+              {
+                "index": "1095",
+                "missed": true
+              },
+              {
+                "index": "1103",
+                "missed": true
+              },
+              {
+                "index": "2538",
+                "missed": true
+              },
+              {
+                "index": "3588",
+                "missed": true
+              },
+              {
+                "index": "5012",
+                "missed": true
+              },
+              {
+                "index": "5013",
+                "missed": true
+              },
+              {
+                "index": "6110",
+                "missed": true
+              },
+              {
+                "index": "6547",
+                "missed": true
+              },
+              {
+                "index": "7392",
+                "missed": true
+              },
+              {
+                "index": "8578",
+                "missed": true
+              },
+              {
+                "index": "8579",
+                "missed": true
+              },
+              {
+                "index": "8580",
+                "missed": true
+              },
+              {
+                "index": "8581",
+                "missed": true
+              },
+              {
+                "index": "9150",
+                "missed": true
+              },
+              {
+                "index": "9151",
+                "missed": true
+              },
+              {
+                "index": "9152",
+                "missed": true
+              },
+              {
+                "index": "9153",
+                "missed": true
+              },
+              {
+                "index": "9217",
+                "missed": true
+              },
+              {
+                "index": "9218",
+                "missed": true
+              },
+              {
+                "index": "9219",
+                "missed": true
+              },
+              {
+                "index": "9280",
+                "missed": true
+              },
+              {
+                "index": "9281",
+                "missed": true
+              },
+              {
+                "index": "9992",
+                "missed": true
+              },
+              {
+                "index": "9993",
+                "missed": true
+              },
+              {
+                "index": "9994",
+                "missed": true
+              },
+              {
+                "index": "9995",
+                "missed": true
+              },
+              {
+                "index": "9996",
+                "missed": true
+              },
+              {
+                "index": "9997",
+                "missed": true
+              },
+              {
+                "index": "10000",
+                "missed": true
+              },
+              {
+                "index": "10001",
+                "missed": true
+              },
+              {
+                "index": "10002",
+                "missed": true
+              },
+              {
+                "index": "10005",
+                "missed": true
+              },
+              {
+                "index": "10006",
+                "missed": true
+              },
+              {
+                "index": "10008",
+                "missed": true
+              },
+              {
+                "index": "10009",
+                "missed": true
+              },
+              {
+                "index": "10010",
+                "missed": true
+              },
+              {
+                "index": "10011",
+                "missed": true
+              },
+              {
+                "index": "10013",
+                "missed": true
+              },
+              {
+                "index": "10014",
+                "missed": true
+              },
+              {
+                "index": "10016",
+                "missed": true
+              },
+              {
+                "index": "10017",
+                "missed": true
+              },
+              {
+                "index": "10025",
+                "missed": true
+              },
+              {
+                "index": "10026",
+                "missed": true
+              },
+              {
+                "index": "10033",
+                "missed": true
+              },
+              {
+                "index": "10034",
+                "missed": true
+              },
+              {
+                "index": "10035",
+                "missed": true
+              },
+              {
+                "index": "10048",
+                "missed": true
+              },
+              {
+                "index": "10561",
+                "missed": true
+              },
+              {
+                "index": "10562",
+                "missed": true
+              },
+              {
+                "index": "11348",
+                "missed": true
+              },
+              {
+                "index": "11994",
+                "missed": true
+              },
+              {
+                "index": "12322",
+                "missed": true
+              },
+              {
+                "index": "14010",
+                "missed": true
+              },
+              {
+                "index": "14916",
+                "missed": true
+              },
+              {
+                "index": "14917",
+                "missed": true
+              },
+              {
+                "index": "16100",
+                "missed": true
+              }
+            ]
+          },
+          {
+            "address": "ggezvalcons1fyf8vgrjgngzgnyvxt45xa5xmywkns8l2l859g",
+            "missed_blocks": [
+              {
+                "index": "1941",
+                "missed": true
+              },
+              {
+                "index": "1942",
+                "missed": true
+              },
+              {
+                "index": "7320",
+                "missed": true
+              },
+              {
+                "index": "8290",
+                "missed": true
+              },
+              {
+                "index": "9429",
+                "missed": true
+              },
+              {
+                "index": "9437",
+                "missed": true
+              },
+              {
+                "index": "9438",
+                "missed": true
+              },
+              {
+                "index": "9439",
+                "missed": true
+              },
+              {
+                "index": "9440",
+                "missed": true
+              },
+              {
+                "index": "9441",
+                "missed": true
+              },
+              {
+                "index": "10442",
+                "missed": true
+              }
+            ]
+          },
+          {
+            "address": "ggezvalcons1fc54wlwrk89ndpw68quu9mvysqy6dugkwxuacx",
+            "missed_blocks": [
+              {
+                "index": "44",
+                "missed": true
+              },
+              {
+                "index": "1828",
+                "missed": true
+              }
+            ]
+          },
+          {
+            "address": "ggezvalcons10rqg5hty8g5mjkv993zfcnkm2wuw03fvndqc0l",
+            "missed_blocks": [
+              {
+                "index": "537",
+                "missed": true
+              },
+              {
+                "index": "1643",
+                "missed": true
+              },
+              {
+                "index": "1644",
+                "missed": true
+              },
+              {
+                "index": "1645",
+                "missed": true
+              },
+              {
+                "index": "1646",
+                "missed": true
+              },
+              {
+                "index": "1647",
+                "missed": true
+              },
+              {
+                "index": "1648",
+                "missed": true
+              },
+              {
+                "index": "1651",
+                "missed": true
+              },
+              {
+                "index": "1773",
+                "missed": true
+              },
+              {
+                "index": "1774",
+                "missed": true
+              },
+              {
+                "index": "1775",
+                "missed": true
+              },
+              {
+                "index": "1776",
+                "missed": true
+              },
+              {
+                "index": "1777",
+                "missed": true
+              },
+              {
+                "index": "1778",
+                "missed": true
+              },
+              {
+                "index": "1779",
+                "missed": true
+              },
+              {
+                "index": "1784",
+                "missed": true
+              },
+              {
+                "index": "1785",
+                "missed": true
+              },
+              {
+                "index": "1786",
+                "missed": true
+              },
+              {
+                "index": "1787",
+                "missed": true
+              },
+              {
+                "index": "1788",
+                "missed": true
+              }
+            ]
+          },
+          {
+            "address": "ggezvalcons1smwfmxp59cw9uuuxt3qfyczv7nj3wrxv0ueznp",
+            "missed_blocks": [
+              {
+                "index": "190",
+                "missed": true
+              },
+              {
+                "index": "1583",
+                "missed": true
+              },
+              {
+                "index": "5693",
+                "missed": true
+              },
+              {
+                "index": "5697",
+                "missed": true
+              }
+            ]
+          },
+          {
+            "address": "ggezvalcons1jm36qnp7d3p5waqlmevn6hdwnrrejxwv564ss3",
+            "missed_blocks": [
+              {
+                "index": "404",
+                "missed": true
+              },
+              {
+                "index": "405",
+                "missed": true
+              },
+              {
+                "index": "1859",
+                "missed": true
+              },
+              {
+                "index": "5545",
+                "missed": true
+              },
+              {
+                "index": "6860",
+                "missed": true
+              },
+              {
+                "index": "7255",
+                "missed": true
+              },
+              {
+                "index": "8308",
+                "missed": true
+              },
+              {
+                "index": "12560",
+                "missed": true
+              },
+              {
+                "index": "13968",
+                "missed": true
+              },
+              {
+                "index": "14853",
+                "missed": true
+              },
+              {
+                "index": "14858",
+                "missed": true
+              }
+            ]
+          },
+          {
+            "address": "ggezvalcons1nnj6gdz0pfgeurdtwxx7mf8uyxgpqud9ee9gtp",
+            "missed_blocks": [
+              {
+                "index": "942",
+                "missed": true
+              }
+            ]
+          },
+          {
+            "address": "ggezvalcons16ekcukzjgux5l7tcnvtsxg3rwyltks7jl7ulmm",
+            "missed_blocks": [
+              {
+                "index": "1404",
+                "missed": true
+              }
+            ]
+          }
+        ]
+      },
+      "staking": {
+        "params": {
+          "unbonding_time": "1814400s",
+          "max_validators": 100,
+          "max_entries": 7,
+          "historical_entries": 10000,
+          "bond_denom": "uggez1",
+          "min_commission_rate": "0.000000000000000000"
+        },
+        "last_total_power": "232727186",
+        "last_validator_powers": [
+          {
+            "address": "ggezvaloper1r2va622j7jg9nnq3pag78s6cgla8fvwjvmsgw6",
+            "power": "3500000"
+          },
+          {
+            "address": "ggezvaloper1rlm5n9vld2ef6jd5l640fxur67f24xjayvtnra",
+            "power": "3500000"
+          },
+          {
+            "address": "ggezvaloper1y8z4hzmfhkpqtg28nd7g7h3djh7u8q6tff9gsv",
+            "power": "44449410"
+          },
+          {
+            "address": "ggezvaloper19h0z28kpl2gqn00rjk8d4gf3kr78hegflk0g24",
+            "power": "3500000"
+          },
+          {
+            "address": "ggezvaloper12mzusset7qzp2ndvm3ya9ss7vzucvfcjlh5fqm",
+            "power": "44444444"
+          },
+          {
+            "address": "ggezvaloper1nwm6sxvmpu9egz0rq5qzexp8f03yad5zej0z5n",
+            "power": "44444444"
+          },
+          {
+            "address": "ggezvaloper1u4hl7lcmwu3c7nd67n66ntz4k2emyy6zq4w58x",
+            "power": "44444444"
+          },
+          {
+            "address": "ggezvaloper1u7374gx6efl39vsd6mhwn0pw7nhwzqtfcz4vgg",
+            "power": "44444444"
+          }
+        ],
+        "validators": [
+          {
+            "operator_address": "ggezvaloper1r2va622j7jg9nnq3pag78s6cgla8fvwjvmsgw6",
+            "consensus_pubkey": {
+              "@type": "/cosmos.crypto.ed25519.PubKey",
+              "key": "s+yk3bN1C/Jay+LzN9wdz/GBlU6R61pR5EOpAr1VX9s="
+            },
+            "jailed": false,
+            "status": "BOND_STATUS_BONDED",
+            "tokens": "3500000000000",
+            "delegator_shares": "3500000000000.000000000000000000",
+            "description": {
+              "moniker": "OxyFreedom",
+              "identity": "",
+              "website": "https://ggez.one",
+              "security_contact": "",
+              "details": ""
+            },
+            "unbonding_height": "0",
+            "unbonding_time": "1970-01-01T00:00:00Z",
+            "commission": {
+              "commission_rates": {
+                "rate": "0.100000000000000000",
+                "max_rate": "0.200000000000000000",
+                "max_change_rate": "0.010000000000000000"
+              },
+              "update_time": "2024-11-12T12:53:55.698108233Z"
+            },
+            "min_self_delegation": "1",
+            "unbonding_on_hold_ref_count": "0",
+            "unbonding_ids": []
+          },
+          {
+            "operator_address": "ggezvaloper1rlm5n9vld2ef6jd5l640fxur67f24xjayvtnra",
+            "consensus_pubkey": {
+              "@type": "/cosmos.crypto.ed25519.PubKey",
+              "key": "ZKyKBG36t7dOGJJalrpvGaT2vwrA7UOIsN889rB2TlA="
+            },
+            "jailed": false,
+            "status": "BOND_STATUS_BONDED",
+            "tokens": "3500000000000",
+            "delegator_shares": "3500000000000.000000000000000000",
+            "description": {
+              "moniker": "Go Green",
+              "identity": "",
+              "website": "https://ggez.one",
+              "security_contact": "",
+              "details": ""
+            },
+            "unbonding_height": "0",
+            "unbonding_time": "1970-01-01T00:00:00Z",
+            "commission": {
+              "commission_rates": {
+                "rate": "0.100000000000000000",
+                "max_rate": "0.200000000000000000",
+                "max_change_rate": "0.010000000000000000"
+              },
+              "update_time": "2024-11-12T12:53:55.698108233Z"
+            },
+            "min_self_delegation": "1",
+            "unbonding_on_hold_ref_count": "0",
+            "unbonding_ids": []
+          },
+          {
+            "operator_address": "ggezvaloper1y8z4hzmfhkpqtg28nd7g7h3djh7u8q6tff9gsv",
+            "consensus_pubkey": {
+              "@type": "/cosmos.crypto.ed25519.PubKey",
+              "key": "yjBBS44+7DiueYsJ1/uNbWtDzANkwuxWCjN7zCM4KbQ="
+            },
+            "jailed": false,
+            "status": "BOND_STATUS_BONDED",
+            "tokens": "44449410745000",
+            "delegator_shares": "44449410745000.000000000000000000",
+            "description": {
+              "moniker": "GGEZ1 Foundation",
+              "identity": "",
+              "website": "https://ggez.one",
+              "security_contact": "",
+              "details": ""
+            },
+            "unbonding_height": "0",
+            "unbonding_time": "1970-01-01T00:00:00Z",
+            "commission": {
+              "commission_rates": {
+                "rate": "0.100000000000000000",
+                "max_rate": "0.200000000000000000",
+                "max_change_rate": "0.010000000000000000"
+              },
+              "update_time": "2024-11-12T12:53:55.698108233Z"
+            },
+            "min_self_delegation": "1",
+            "unbonding_on_hold_ref_count": "0",
+            "unbonding_ids": []
+          },
+          {
+            "operator_address": "ggezvaloper19h0z28kpl2gqn00rjk8d4gf3kr78hegflk0g24",
+            "consensus_pubkey": {
+              "@type": "/cosmos.crypto.ed25519.PubKey",
+              "key": "wfX686/C3YWoMuYEzJm5jekB8Ozw0uyKcaFmU8JUyyo="
+            },
+            "jailed": false,
+            "status": "BOND_STATUS_BONDED",
+            "tokens": "3500000000000",
+            "delegator_shares": "3500000000000.000000000000000000",
+            "description": {
+              "moniker": "Eco",
+              "identity": "",
+              "website": "https://ggez.one",
+              "security_contact": "",
+              "details": ""
+            },
+            "unbonding_height": "0",
+            "unbonding_time": "1970-01-01T00:00:00Z",
+            "commission": {
+              "commission_rates": {
+                "rate": "0.100000000000000000",
+                "max_rate": "0.200000000000000000",
+                "max_change_rate": "0.010000000000000000"
+              },
+              "update_time": "2024-11-12T12:53:55.698108233Z"
+            },
+            "min_self_delegation": "1",
+            "unbonding_on_hold_ref_count": "0",
+            "unbonding_ids": []
+          },
+          {
+            "operator_address": "ggezvaloper12mzusset7qzp2ndvm3ya9ss7vzucvfcjlh5fqm",
+            "consensus_pubkey": {
+              "@type": "/cosmos.crypto.ed25519.PubKey",
+              "key": "rC0bag4xFpanVm50x2Dy9c3PfpzgVIMYqi/DIyxSh6M="
+            },
+            "jailed": false,
+            "status": "BOND_STATUS_BONDED",
+            "tokens": "44444444000000",
+            "delegator_shares": "44444444000000.000000000000000000",
+            "description": {
+              "moniker": "GGEZ1 Labs",
+              "identity": "",
+              "website": "https://ggez.one",
+              "security_contact": "",
+              "details": ""
+            },
+            "unbonding_height": "0",
+            "unbonding_time": "1970-01-01T00:00:00Z",
+            "commission": {
+              "commission_rates": {
+                "rate": "0.100000000000000000",
+                "max_rate": "0.200000000000000000",
+                "max_change_rate": "0.010000000000000000"
+              },
+              "update_time": "2024-11-12T12:53:55.698108233Z"
+            },
+            "min_self_delegation": "1",
+            "unbonding_on_hold_ref_count": "0",
+            "unbonding_ids": []
+          },
+          {
+            "operator_address": "ggezvaloper1nwm6sxvmpu9egz0rq5qzexp8f03yad5zej0z5n",
+            "consensus_pubkey": {
+              "@type": "/cosmos.crypto.ed25519.PubKey",
+              "key": "1Fnk47FBUHDxbDLxxMSmeXY50lHg+yrJKXgjlAilS/M="
+            },
+            "jailed": false,
+            "status": "BOND_STATUS_BONDED",
+            "tokens": "44444444000000",
+            "delegator_shares": "44444444000000.000000000000000000",
+            "description": {
+              "moniker": "Oxygen",
+              "identity": "",
+              "website": "https://ggez.one",
+              "security_contact": "",
+              "details": ""
+            },
+            "unbonding_height": "0",
+            "unbonding_time": "1970-01-01T00:00:00Z",
+            "commission": {
+              "commission_rates": {
+                "rate": "0.100000000000000000",
+                "max_rate": "0.200000000000000000",
+                "max_change_rate": "0.010000000000000000"
+              },
+              "update_time": "2024-11-12T12:53:55.698108233Z"
+            },
+            "min_self_delegation": "1",
+            "unbonding_on_hold_ref_count": "0",
+            "unbonding_ids": []
+          },
+          {
+            "operator_address": "ggezvaloper1u4hl7lcmwu3c7nd67n66ntz4k2emyy6zq4w58x",
+            "consensus_pubkey": {
+              "@type": "/cosmos.crypto.ed25519.PubKey",
+              "key": "+bi8ahWYv6IuDh5h+AX+GG03gWOjU/UbiWRG7gRzlkQ="
+            },
+            "jailed": false,
+            "status": "BOND_STATUS_BONDED",
+            "tokens": "44444444000000",
+            "delegator_shares": "44444444000000.000000000000000000",
+            "description": {
+              "moniker": "H2O",
+              "identity": "",
+              "website": "https://ggez.one",
+              "security_contact": "",
+              "details": ""
+            },
+            "unbonding_height": "0",
+            "unbonding_time": "1970-01-01T00:00:00Z",
+            "commission": {
+              "commission_rates": {
+                "rate": "0.100000000000000000",
+                "max_rate": "0.200000000000000000",
+                "max_change_rate": "0.010000000000000000"
+              },
+              "update_time": "2024-11-12T12:53:55.698108233Z"
+            },
+            "min_self_delegation": "1",
+            "unbonding_on_hold_ref_count": "0",
+            "unbonding_ids": []
+          },
+          {
+            "operator_address": "ggezvaloper1u7374gx6efl39vsd6mhwn0pw7nhwzqtfcz4vgg",
+            "consensus_pubkey": {
+              "@type": "/cosmos.crypto.ed25519.PubKey",
+              "key": "BygBT96TkK2KL0DsPxMAWt5UPX427K7OhD6YsVCdTUc="
+            },
+            "jailed": false,
+            "status": "BOND_STATUS_BONDED",
+            "tokens": "44444444000000",
+            "delegator_shares": "44444444000000.000000000000000000",
+            "description": {
+              "moniker": "Accomplish",
+              "identity": "",
+              "website": "https://ggez.one",
+              "security_contact": "",
+              "details": ""
+            },
+            "unbonding_height": "0",
+            "unbonding_time": "1970-01-01T00:00:00Z",
+            "commission": {
+              "commission_rates": {
+                "rate": "0.100000000000000000",
+                "max_rate": "0.200000000000000000",
+                "max_change_rate": "0.010000000000000000"
+              },
+              "update_time": "2024-11-12T12:53:55.698108233Z"
+            },
+            "min_self_delegation": "1",
+            "unbonding_on_hold_ref_count": "0",
+            "unbonding_ids": []
+          }
+        ],
+        "delegations": [
+          {
+            "delegator_address": "ggez1r2va622j7jg9nnq3pag78s6cgla8fvwjx97j09",
+            "validator_address": "ggezvaloper1r2va622j7jg9nnq3pag78s6cgla8fvwjvmsgw6",
+            "shares": "3500000000000.000000000000000000"
+          },
+          {
+            "delegator_address": "ggez1rlm5n9vld2ef6jd5l640fxur67f24xjawj9fzz",
+            "validator_address": "ggezvaloper1rlm5n9vld2ef6jd5l640fxur67f24xjayvtnra",
+            "shares": "3500000000000.000000000000000000"
+          },
+          {
+            "delegator_address": "ggez1y8z4hzmfhkpqtg28nd7g7h3djh7u8q6trhtj3n",
+            "validator_address": "ggezvaloper1y8z4hzmfhkpqtg28nd7g7h3djh7u8q6tff9gsv",
+            "shares": "44444444000000.000000000000000000"
+          },
+          {
+            "delegator_address": "ggez19h0z28kpl2gqn00rjk8d4gf3kr78hegf4gpjt2",
+            "validator_address": "ggezvaloper19h0z28kpl2gqn00rjk8d4gf3kr78hegflk0g24",
+            "shares": "3500000000000.000000000000000000"
+          },
+          {
+            "delegator_address": "ggez12mzusset7qzp2ndvm3ya9ss7vzucvfcj4f6npy",
+            "validator_address": "ggezvaloper12mzusset7qzp2ndvm3ya9ss7vzucvfcjlh5fqm",
+            "shares": "44444444000000.000000000000000000"
+          },
+          {
+            "delegator_address": "ggez1df7046vyrzpkdwy40ehjeklgaruhvnt6c32dcz",
+            "validator_address": "ggezvaloper1y8z4hzmfhkpqtg28nd7g7h3djh7u8q6tff9gsv",
+            "shares": "4966745000.000000000000000000"
+          },
+          {
+            "delegator_address": "ggez1nwm6sxvmpu9egz0rq5qzexp8f03yad5znvpc4v",
+            "validator_address": "ggezvaloper1nwm6sxvmpu9egz0rq5qzexp8f03yad5zej0z5n",
+            "shares": "44444444000000.000000000000000000"
+          },
+          {
+            "delegator_address": "ggez1u4hl7lcmwu3c7nd67n66ntz4k2emyy6z2tqwxe",
+            "validator_address": "ggezvaloper1u4hl7lcmwu3c7nd67n66ntz4k2emyy6zq4w58x",
+            "shares": "44444444000000.000000000000000000"
+          },
+          {
+            "delegator_address": "ggez1u7374gx6efl39vsd6mhwn0pw7nhwzqtfjumkfh",
+            "validator_address": "ggezvaloper1u7374gx6efl39vsd6mhwn0pw7nhwzqtfcz4vgg",
+            "shares": "44444444000000.000000000000000000"
+          }
+        ],
+        "unbonding_delegations": [],
+        "redelegations": [],
+        "exported": true
+      },
+      "trade": {
+        "params": {},
+        "tradeIndex": {
+          "nextId": "1"
+        },
+        "storedTradeList": [],
+        "storedTempTradeList": []
+      },
+      "transfer": {
+        "port_id": "transfer",
+        "denom_traces": [],
+        "params": {
+          "send_enabled": true,
+          "receive_enabled": true
+        },
+        "total_escrowed": []
+      },
+      "upgrade": {},
+      "vesting": {},
+      "wasm": {
+        "params": {
+          "code_upload_access": {
+            "permission": "Everybody",
+            "addresses": []
+          },
+          "instantiate_default_permission": "Everybody"
+        },
+        "codes": [],
+        "contracts": [],
+        "sequences": [
+          {
+            "id_key": "BGxhc3RDb2RlSWQ=",
+            "value": "1"
+          },
+          {
+            "id_key": "BGxhc3RDb250cmFjdElk",
+            "value": "1"
+          }
+        ]
+      }
+    },
+    "consensus": {
+      "validators": [
+        {
+          "address": "491276207244D0244C8C32EB437686D91D69C0FF",
+          "pub_key": {
+            "type": "tendermint/PubKeyEd25519",
+            "value": "s+yk3bN1C/Jay+LzN9wdz/GBlU6R61pR5EOpAr1VX9s="
+          },
+          "power": "3500000",
+          "name": "OxyFreedom"
+        },
+        {
+          "address": "2A927DD04B3BCCF08BB18704CB28812BAECDBC78",
+          "pub_key": {
+            "type": "tendermint/PubKeyEd25519",
+            "value": "ZKyKBG36t7dOGJJalrpvGaT2vwrA7UOIsN889rB2TlA="
+          },
+          "power": "3500000",
+          "name": "Go Green"
+        },
+        {
+          "address": "4E29577DC3B1CB3685DA3839C2ED848009A6F116",
+          "pub_key": {
+            "type": "tendermint/PubKeyEd25519",
+            "value": "yjBBS44+7DiueYsJ1/uNbWtDzANkwuxWCjN7zCM4KbQ="
+          },
+          "power": "44449410",
+          "name": "GGEZ1 Foundation"
+        },
+        {
+          "address": "9CE5A4344F0A519E0DAB718DEDA4FC21901071A5",
+          "pub_key": {
+            "type": "tendermint/PubKeyEd25519",
+            "value": "wfX686/C3YWoMuYEzJm5jekB8Ozw0uyKcaFmU8JUyyo="
+          },
+          "power": "3500000",
+          "name": "Eco"
+        },
+        {
+          "address": "78C08A5D643A29B959852C449C4EDB53B8E7C52C",
+          "pub_key": {
+            "type": "tendermint/PubKeyEd25519",
+            "value": "rC0bag4xFpanVm50x2Dy9c3PfpzgVIMYqi/DIyxSh6M="
+          },
+          "power": "44444444",
+          "name": "GGEZ1 Labs"
+        },
+        {
+          "address": "96E3A04C3E6C4347741FDE593D5DAE98C79919CC",
+          "pub_key": {
+            "type": "tendermint/PubKeyEd25519",
+            "value": "1Fnk47FBUHDxbDLxxMSmeXY50lHg+yrJKXgjlAilS/M="
+          },
+          "power": "44444444",
+          "name": "Oxygen"
+        },
+        {
+          "address": "86DC9D98342E1C5E73865C4092604CF4E5170CCC",
+          "pub_key": {
+            "type": "tendermint/PubKeyEd25519",
+            "value": "+bi8ahWYv6IuDh5h+AX+GG03gWOjU/UbiWRG7gRzlkQ="
+          },
+          "power": "44444444",
+          "name": "H2O"
+        },
+        {
+          "address": "D66D8E5852470D4FF9789B17032223713EBB43D2",
+          "pub_key": {
+            "type": "tendermint/PubKeyEd25519",
+            "value": "BygBT96TkK2KL0DsPxMAWt5UPX427K7OhD6YsVCdTUc="
+          },
+          "power": "44444444",
+          "name": "Accomplish"
+        }
+      ],
+      "params": {
+        "block": {
+          "max_bytes": "22020096",
+          "max_gas": "-1"
+        },
+        "evidence": {
+          "max_age_num_blocks": "100000",
+          "max_age_duration": "172800000000000",
+          "max_bytes": "1048576"
+        },
+        "validator": {
+          "pub_key_types": [
+            "ed25519"
+          ]
+        },
+        "version": {
+          "app": "0"
+        },
+        "abci": {
+          "vote_extensions_enable_height": "0"
+        }
+      }
+    }
+  }
